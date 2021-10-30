@@ -101,6 +101,7 @@ text-align: left;
 ul, 
 ol {
  list-style-type: none;
+text-align: center;
 }
  
 a {
@@ -111,6 +112,7 @@ a {
 h2 {
  font-family: "Poppins",sans-serif;
 font-size: 1.875em;
+text-align: center;
 }
  
 h3, 
@@ -118,11 +120,13 @@ h4 {
  font-family: "Poppins",sans-serif;
 font-size: 1.125em;
 margin: 20px 0;
+text-align: center;
 }
  
 p {
   font-size: .875em;
   line-height: 1.285;
+text-align: center;
 }
  
 img {
@@ -140,6 +144,7 @@ address {
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
+  text-align: center;
 }
 
    /*BASE HEADER-FOOTER STYLES*/
@@ -289,8 +294,12 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  text-align: center;
 }
-
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
+}
 .features p {
   margin: 0;
 }
@@ -316,7 +325,9 @@ aside {
   width: 55%;
   margin: 20px 0;
 }
-
+article{
+  text-align: center;
+}
 /* ==========================================================================
    About Page
    ========================================================================== */
